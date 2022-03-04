@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-color: cadetblue;
+}
+
+.padding {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid yellow;
+}
+
+.text {
+    width: 50%;
+    border: 1px solid pink;
+    padding: 3rem 0;
+}
+
+.text h1 {
+    color: white;
+}
+
+.text p {
+    padding: 1rem 0;
+}
+
+.text a {
+    text-decoration: none;
+    color: navy;
+    border: none;
+    background-color: paleturquoise;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    
+}
+
+.btn:focus, .btn:hover {
+    opacity: 0.3;
+}
